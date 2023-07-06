@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#main{
+    backdrop-filter: blur(20px);
+    text-align: center;
+    width: fit-content;
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    max-width: min(100%, 900px);;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    flex-direction: column;  
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/038/972/908/large/lapper-bggreenhill1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    background-color: argb(25, 25, 155);
+    color: #F6C883;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px auto 0;
+    font-size: 42px;
+}
+
+p{
+    margin: auto;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#games-list{
+    text-align: start;
+}
+
+#image{
+    max-width: min(100%, 700px);
+    max-height: 100%;
+    margin-bottom: 0;
+}
+
+ul{
+    margin: 0 100px;
+}
+
+li > h3{
+    list-style-type: none;
+    color: #F6C883;
+    text-shadow: 2px 2px #e05d5d;
+}
+
+li > p{
+    color: #FFFFFF;
+}
+
+label {
+    display: inline-block;
+    color: slategray;
+    background-color: aliceblue;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.introduction-div{
+    margin: 15px auto;
+}
